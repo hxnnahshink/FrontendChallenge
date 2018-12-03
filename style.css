@@ -1,0 +1,90 @@
+*, *:before, *:after { /*mandatory*/
+  box-sizing: border-box;
+}
+
+body { /*body*/
+  background-color: white;
+  font-size: 10px;
+  margin: auto;
+}
+
+.container { /*iOS size*/
+  margin: 0 auto;
+  width: 375px;
+  height: 667px;
+  background-color: #ffffff;
+}
+
+.ios-nav { /*at the top*/
+  height: 20px;
+  width: 375px;
+  position: inherit;
+}
+
+.transitinfo { /* background color/text colors aren't coming out right - need help with sizing */
+  background-color: #2DB5C7;
+  height: 50px;
+  width: 375px;
+  position: relative;
+  color: #ffffff;
+  text-align: left;
+}
+
+.bus-icon img {
+  background-color: #2DB5C7;
+
+}
+
+.navbar-top { /*div for Washington x State*/
+  background-color: #2DB5C7;
+  height: 80px;
+  width: 375px;
+  position: relative;
+  text-align: center;
+}
+
+h3 { /*stop 131: washington street*/
+  text-align: center;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  width: 68%;
+}
+
+
+body{
+  font-family: Arial, Verdana, sans-serif;
+  color: #2DB5C7;}
+table{
+  width: 375px;}
+td{
+  padding: 7px 10px 10px 10px;}
+th{
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  text-align: left;
+  background-color: #96cdd5;
+  color: #ffffff;}
+
+
+.row-selected{
+  text-align: left;
+  background-color: #2DB5C7;
+  color: #ffffff;}
+
+.header{ /* this is supposed to be the header for each directions line; tried to make each into seperate div's for the sake of styling but this it is not resposnive */
+  width: 375px;
+}
+
+
+  .map img{
+    position: relative;
+    width: 375px;
+    height: auto;
+  }
+
+.bottom-nav{
+  width: 375px;
+}
