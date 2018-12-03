@@ -7,40 +7,53 @@
     <link rel="stylesheet" href="style.css">
   </head>
     <body>
-      <div class="container">
+      <!--<div class="container">
         <div class="nav-bar">
           <img src="nav-bar.png" alt="ios nav bar top">
-        </div>
-        <div class="heading">
+          <h1>Schedule View</h1>
+
+        </div> -->
+<div class="top-container">
+  <div class= "chevron">
+    <i class="fas fa-chevron-left"></i>
+  <img src="chevron.png" alt= "chevron">
+</div>
+  <h1>Schedule View</h1>
+  <!-- <h6>Back</h6> if the text is here, it is centered by the top-container styling -->
+</div>
+<div class="backbutton"> <!-- with the text here, it is showing up in the right place, but the font color will not change in the style.css file; everything around it changes except for the color of the text -->
+  <h6>Back</h6>
+</div>
+
+        <div class="heading1">
           <h3>Stop 131: Washington Street</h3>
         </div>
 <!-- Transit Times: this isn't showing up properly -->
-          <table>
-          <div class="transitinfo">
-          <td>Transit Times</td>
-          <td><img src="bus-icon.png" alt="bus icon"></td>
-          <td> <p>50 Min</p></td>
-          <td> <img src="car-icon.png" alt="car icon"></td>
-          <td> <p>36 Min</p></td>
-          <td> <img src="walk-icon.png" alt="walk icon"></td>
-          <td> <p>2 Hours</p></td>
-        </div>
-      </table>
-<!-- my table from figma -->
-<table>
-  <div class="header1">
-  <tr>
-    <th>Eastbound</th>
-    <th>Destination</th>
-    <th class="arrow"></th>
-    <th>Frequency</th>
+
+<div class="traninfo">
+  <table>
+  <td>Transit Times</td>
+  <td><img src="bus-icon.png" alt="bus icon"></td>
+  <td> <p>50 Min</p></td>
+  <td> <img src="car-icon.png" alt="car icon"></td>
+  <td> <p>36 Min</p></td>
+  <td> <img src="walk-icon.png" alt="walk icon"></td>
+  <td> <p>2 Hours</p></td>
+</table>
 </div>
+
+<table>
+<tr>
+<th>Eastbound</th>
+<th>Destination</th>
+<th class="arrow"></th>
+<th>Frequency</th>
 </tr>
+
     <td>60</td>
     <td>Randolph/Harbor Dr</td>
     <td><img src="Arrow.png" alt="arrow"></td>
     <td>Every 20 minutes</td>
-
   </tr>
 </div>
     <td>124</td>

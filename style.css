@@ -15,15 +15,15 @@ body { /*body*/
   background-color: #ffffff;
 }
 
-.ios-nav { /*at the top*/
-  height: 20px;
+.ios-nav { /*at the top, leaving this for structure, need help actually putting in the individual components (for bottom too)*/
+  height: 50px;
   width: 375px;
   position: inherit;
 }
 
-.transitinfo { /* background color/text colors aren't coming out right - need help with sizing */
+.traninfo { /* background color/text colors aren't coming out right - need help with sizing */
   background-color: #2DB5C7;
-  height: 50px;
+  height: 40px;
   width: 375px;
   position: relative;
   color: #ffffff;
@@ -32,7 +32,6 @@ body { /*body*/
 
 .bus-icon img {
   background-color: #2DB5C7;
-
 }
 
 .navbar-top { /*div for Washington x State*/
@@ -79,12 +78,46 @@ th{
 }
 
 
-  .map img{
-    position: relative;
-    width: 375px;
-    height: auto;
+.map img{
+  position: relative;
+  width: 375px;
+  height: auto;
+  display: inline-block;
   }
 
 .bottom-nav{
   width: 375px;
+}
+
+h6 { /* words "Wash x State" */
+  text-align: left;
+  font-size: 1.1em;
+  font-family: sans-serif;
+  color: #efeff4;
+  display: inline-block;
+}
+
+.top-container {
+ background-color: #f8f8f8;
+ height: 50px;
+ width: 375px;
+ font-size: 1.7em;
+ text-align: center;
+}
+.chevron{
+  /* how to properly place the chevron on top left?--> */
+}
+.backbutton{ /* everything around it changes except for the color of the text */
+  text-align: left;
+  color: #efeff4;
+  width: 375px;
+  background-color: #2DB5C7; /* change to f8f8f8 once the background color is fixed */
+  height: 50px;
+  width: 375px;
+  line-height: 44px;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  display: inline-block;
+  margin: auto;
 }
