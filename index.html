@@ -14,20 +14,18 @@
 
         </div> -->
 <div class="top-container">
+  <!-- how to properly place the chevron on top left?-->
   <div class= "chevron">
-    <i class="fas fa-chevron-left"></i>
   <img src="chevron.png" alt= "chevron">
 </div>
   <h1>Schedule View</h1>
   <!-- <h6>Back</h6> if the text is here, it is centered by the top-container styling -->
 </div>
-<div class="backbutton"> <!-- with the text here, it is showing up in the right place, but the font color will not change in the style.css file; everything around it changes except for the color of the text -->
-  <h6>Back</h6>
+<div class="stopnum">
+  <h3>Stop 131: Washington Street</h3>
 </div>
 
-        <div class="heading1">
-          <h3>Stop 131: Washington Street</h3>
-        </div>
+
 <!-- Transit Times: this isn't showing up properly -->
 
 <div class="traninfo">
@@ -107,7 +105,7 @@
   <td><img src="Arrow.png" alt="arrow"></td>
   <td>N/A</td>
 </tr>
-<div class="header5">
+<div class="outofservice"> <!-- notice class is out of service in case i need to specify visually a difference in css styling -->
 <tr>
   <th>Out of Service</th>
   <th></th>
@@ -137,6 +135,20 @@
 <img src="map.png" alt="map">
 </div>
 
+<!-- going to structure the bottom nav as a table -->
 <div class="bottom-nav">
-<img src="bottom-nav.png" alt="bottom nav bar">
+ <tr>
+   <ul>
+     <li><img src="new-trip.png" alt="new trip"></li>
+     <td>New Trip</td>
+     <li><img src="routes.png" alt="routes"></li>
+     <td>Routes</td>
+     <li><img src="go-home.png" alt="go home"></li>
+     <td>Go Home</td>
+     <li><img src="favorites.png" alt="favorites"></li>
+     <td>Favorites</td>
+     <li><img src="more.png" alt="more"></li>
+     <td>More</td>
+   </ul>
+ </tr>
 </div>

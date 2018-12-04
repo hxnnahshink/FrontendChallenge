@@ -42,14 +42,7 @@ body { /*body*/
   text-align: center;
 }
 
-h3 { /*stop 131: washington street*/
-  text-align: center;
-  font-size: 2em;
-  font-family: sans-serif;
-  font-weight: lighter;
-  color: #ffffff;
-  width: 68%;
-}
+
 
 
 body{
@@ -66,6 +59,14 @@ th{
   text-align: left;
   background-color: #96cdd5;
   color: #ffffff;}
+
+.outofservice th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    text-align: left;
+    background-color: #F93822;
+    color: #ffffff;}
 
 
 .row-selected{
@@ -86,7 +87,17 @@ th{
   }
 
 .bottom-nav{
-  width: 375px;
+  width: 20%;
+  display: inline-block;
+  background-color: #efefef;
+  overflow: auto;
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  padding: 12px 0; /* Some top and bottom padding */
+  color: #979797; /* grey text color */
+  font-size: 1.1em; /* Increased font size */
+
+  }
 }
 
 h6 { /* words "Wash x State" */
@@ -107,17 +118,18 @@ h6 { /* words "Wash x State" */
 .chevron{
   /* how to properly place the chevron on top left?--> */
 }
-.backbutton{ /* everything around it changes except for the color of the text */
-  text-align: left;
-  color: #efeff4;
+.stopnum{ /* everything around it changes except for the color of the text */
+  text-align: center;
+  color: #2DB5C7;;
   width: 375px;
-  background-color: #2DB5C7; /* change to f8f8f8 once the background color is fixed */
-  height: 50px;
-  width: 375px;
+  background-color: #f8f8f8;
   line-height: 44px;
-  font-size: 1em;
+  font-size: 2em;
   font-family: sans-serif;
   font-weight: lighter;
   display: inline-block;
   margin: auto;
 }
+
+height: 50px;
+width: 375px;
