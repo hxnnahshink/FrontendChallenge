@@ -49,33 +49,31 @@ table{
   width: 375px;}
 td{
   padding: 7px 10px 10px 10px;}
-th{
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 90%;
-  text-align: left;
-  background-color: #96cdd5;
-  color: #ffffff;}
 
-.outOfService th{
+  th{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 90%;
     text-align: left;
-    background-color: #F93822; /* this isn't changing to red?*/
+    background-color: #96cdd5;
     color: #ffffff;}
 
-.row-selected{
+.outOfService th{
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
   text-align: left;
-  background-color: #2DB5C7;
-  color: #ffffff;}
+  background-color: #F93822;
+  color: #ffffff;
+  }
+
 
 .header{ /* this is supposed to be the header for each directions line; tried to make each into seperate div's for the sake of styling but this it is not resposnive */
   width: 375px;
 }
 
 .reroute th{
-  background-color: #7e7e7e; /*color not showing up correctly?*/
+  background-color: #33bc52; /*color not showing up correctly?*/
 }
 .map img{
   position: relative;
@@ -96,15 +94,7 @@ th{
     justify-content: center;
     align-items: center;
   }
-  .bottom-nav-list img{
-    display: block;
-    text-align: center;
-  }
 
-  .bottom-nav-list span{
-    display: block;
-    width: 100%;
-  }
 
   .bottom-nav li {
     width: 375px;
@@ -141,9 +131,9 @@ h6 { /* words "Wash x State" */
 }
 .stopnum{ /* everything around it changes except for the color of the text */
   text-align: center;
-  color: #2DB5C7;;
+  color: #ffffff;
   width: 375px;
-  background-color: #f8f8f8;
+  background-color: #2DB5C7;
   line-height: 44px;
   font-size: 2em;
   font-family: sans-serif;
@@ -159,4 +149,5 @@ h6 { /* words "Wash x State" */
   text-align: center;
   font-size: 1.6em;
   background-color: #f8f8f8;
+  height: 25px;
 }
