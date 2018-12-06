@@ -6,6 +6,7 @@ body { /*body*/
   background-color: white;
   font-size: 10px;
   margin: auto;
+  width: 375px;
 }
 
 .ios-nav { /*at the top, leaving this for structure, need help actually putting in the individual components (for bottom too)*/
@@ -17,7 +18,7 @@ body { /*body*/
 .traninfo { /* background color/text colors aren't coming out right - need help with sizing */
   background-color: #2DB5C7;
   height: 40px;
-  width: 375px;
+
   position: relative;
   color: #ffffff;
   text-align: left;
@@ -30,7 +31,6 @@ body { /*body*/
 .navbar-top { /*div for Washington x State*/
   background-color: #2DB5C7;
   height: 80px;
-  width: 375px;
   position: relative;
   text-align: center;
 }
@@ -38,8 +38,9 @@ body { /*body*/
 body{
   font-family: Arial, Verdana, sans-serif;
   color: #2DB5C7;}
+
 table{
-  width: 375px;}
+    width: 375px;}
 td{
   padding: 7px 10px 10px 10px;}
 
@@ -62,17 +63,12 @@ th{
   color: #ffffff;
   }
 
-
-.header{ /* this is supposed to be the header for each directions line; tried to make each into seperate div's for the sake of styling but this it is not resposnive */
-  width: 375px;
-}
-
 .reroute th{
   background-color: #33bc52; /*color not showing up correctly?*/
 }
 .map img{
   position: relative;
-  width: 375px;
+  width: 100%;
   height: auto;
   display: inline-block;
   }
@@ -89,7 +85,6 @@ th{
     justify-content: center;
     align-items: center;
   }
-
 
   .bottom-nav li {
     width: 375px;
@@ -115,7 +110,6 @@ h6 { /* words "Wash x State" */
 .top-container {
  background-color: #f8f8f8;
  height: 50px;
- width: 375px;
  font-size: 1.7em;
  text-align: center;
 }
@@ -126,12 +120,11 @@ h6 { /* words "Wash x State" */
 
 .chevron img{
   height: 20px;
-  align-content: center;
 }
 .stopnum{ /* everything around it changes except for the color of the text */
   text-align: center;
   color: #ffffff;
-  width: 375px;
+  width: 100%;
   background-color: #2DB5C7;
   line-height: 44px;
   font-size: 2em;
@@ -143,7 +136,7 @@ h6 { /* words "Wash x State" */
 
 .schedule-view{
   color: #2DB5C7;;
-  width: 375px;
+
   font-weight: bold;
   text-align: center;
   font-size: 1.6em;
