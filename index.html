@@ -7,20 +7,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
     <body>
-      <!--<div class="container">
+      <!-- <div class="container">
         <div class="nav-bar">
           <img src="nav-bar.png" alt="ios nav bar top">
           <h1>Schedule View</h1>
 
         </div> -->
 <div class="top-container">
-  <!-- how to properly place the chevron on top left?-->
-  <div class= "chevron">
-  <img src="chevron.png" alt= "chevron">
 </div>
+</div>
+<div class= "chevron">
+<img src="chevron.png" alt= "chevron">
+</div>
+<div class="schedule-view">
   <h1>Schedule View</h1>
   <!-- <h6>Back</h6> if the text is here, it is centered by the top-container styling -->
 </div>
+
 <div class="stopnum">
   <h3>Stop 131: Washington Street</h3>
 </div>
@@ -44,19 +47,19 @@
 <tr>
 <th>Eastbound</th>
 <th>Destination</th>
-<th class="arrow"></th>
+<th></th>
 <th>Frequency</th>
 </tr>
 
     <td>60</td>
     <td>Randolph/Harbor Dr</td>
-    <td><img src="Arrow.png" alt="arrow"></td>
+    <td></td>
     <td>Every 20 minutes</td>
   </tr>
 </div>
     <td>124</td>
     <td>Navy Pier</td>
-    <td><img src="Arrow.png" alt="arrow"></td>
+    <td></td>
     <td>Every 10 minutes</td>
   </tr>
 
@@ -64,13 +67,13 @@
   <tr>
     <th>Northbound</th>
     <th></th>
-    <th class="arrow"></th>
+    <th></th>
     <th></th>
 </div>
   <tr>
     <td>151</td>
     <td>Devon/Clark</td>
-    <td><img src="Arrow.png" alt="arrow"></td>
+    <td></td>
     <td>Every 16 minutes</td>
   </tr>
   <div class="header3">
@@ -83,51 +86,51 @@
   <tr class="row-selected">
     <td>J14</td>
     <td>103rd/Stony Island</td>
-    <td><img src="Arrow.png" alt="arrow"></td>
+    <td></td>
     <td>Every 15 minutes</td>
   </tr>
   <tr>
     <td>124</td>
     <td>Navy Pier</td>
-    <td><img src="Arrow.png" alt="arrow"></td>
+    <td></td>
     <td>Every 10 minutes</td>
   </tr>
   <div class="header4">
   <tr>
     <th>Reroute</th>
     <th></th>
-    <th class="arrow"></th>
+    <th></th>
     <th></th>
 </div>
 <tr>
   <td>6x</td>
   <td>Jackson Park Express</td>
-  <td><img src="Arrow.png" alt="arrow"></td>
+  <td></td>
   <td>N/A</td>
 </tr>
-<div class="outofservice"> <!-- notice class is out of service in case i need to specify visually a difference in css styling -->
+<div class="outOfService">
 <tr>
   <th>Out of Service</th>
   <th></th>
-  <th class="arrow"></th>
+  <th></th>
   <th></th>
 </div>
 <tr>
   <td>4</td>
   <td>Cottage Grove</td>
-  <td><img src="Arrow.png" alt="arrow"></td>
+  <td></td>
   <td>Resumes 12:10am</td>
 </tr>
 <tr>
   <td>20</td>
   <td>Madison</td>
-  <td><img src="Arrow.png" alt="arrow"></td>
+  <td></td>
   <td>Resumes 12:10am</td>
 </tr>
 <tr>
   <td>157</td>
   <td>Streeterville/Taylor</td>
-  <td><img src="Arrow.png" alt="arrow"></td>
+  <td></td>
   <td>Resumes 6:00am</td>
 </tr>
 </table>
@@ -137,18 +140,11 @@
 
 <!-- going to structure the bottom nav as a table -->
 <div class="bottom-nav">
- <tr>
-   <ul>
-     <li><img src="new-trip.png" alt="new trip"></li>
-     <td>New Trip</td>
+   <ul class="bottom-nav-list">
+     <li><img src="new-trip.png" alt="new trip"> </li>
      <li><img src="routes.png" alt="routes"></li>
-     <td>Routes</td>
      <li><img src="go-home.png" alt="go home"></li>
-     <td>Go Home</td>
      <li><img src="favorites.png" alt="favorites"></li>
-     <td>Favorites</td>
      <li><img src="more.png" alt="more"></li>
-     <td>More</td>
    </ul>
- </tr>
 </div>

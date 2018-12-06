@@ -42,9 +42,6 @@ body { /*body*/
   text-align: center;
 }
 
-
-
-
 body{
   font-family: Arial, Verdana, sans-serif;
   color: #2DB5C7;}
@@ -60,14 +57,13 @@ th{
   background-color: #96cdd5;
   color: #ffffff;}
 
-.outofservice th{
+.outOfService th{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 90%;
     text-align: left;
-    background-color: #F93822;
+    background-color: #F93822; /* this isn't changing to red?*/
     color: #ffffff;}
-
 
 .row-selected{
   text-align: left;
@@ -78,7 +74,9 @@ th{
   width: 375px;
 }
 
-
+.reroute th{
+  background-color: #7e7e7e; /*color not showing up correctly?*/
+}
 .map img{
   position: relative;
   width: 375px;
@@ -86,19 +84,40 @@ th{
   display: inline-block;
   }
 
-.bottom-nav{
-  width: 20%;
-  display: inline-block;
-  background-color: #efefef;
-  overflow: auto;
-  float: left; /* Float links side by side */
-  text-align: center; /* Center-align text */
-  padding: 12px 0; /* Some top and bottom padding */
-  color: #979797; /* grey text color */
-  font-size: 1.1em; /* Increased font size */
-
+  .bottom-nav {
+    width: 375px;
+    overflow: auto;
+    position: relative;
+    background-color: #efefef;
   }
-}
+
+  .bottom-nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-nav-list img{
+    display: block;
+    text-align: center;
+  }
+
+  .bottom-nav-list span{
+    display: block;
+    width: 100%;
+  }
+
+  .bottom-nav li {
+    width: 375px;
+    background-color: #efefef;
+    overflow: auto;
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    /*width: 5.555%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    color: #979797; /* grey text color */
+    font-size: 1.1em; /* Increased font size */
+    display: inline-block;
+    }
 
 h6 { /* words "Wash x State" */
   text-align: left;
@@ -116,7 +135,9 @@ h6 { /* words "Wash x State" */
  text-align: center;
 }
 .chevron{
-  /* how to properly place the chevron on top left?--> */
+  background-color: #f8f8f8;
+  width: 375px;
+  height: 10px;
 }
 .stopnum{ /* everything around it changes except for the color of the text */
   text-align: center;
@@ -131,5 +152,11 @@ h6 { /* words "Wash x State" */
   margin: auto;
 }
 
-height: 50px;
-width: 375px;
+.schedule-view{
+  color: #2DB5C7;;
+  width: 375px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.6em;
+  background-color: #f8f8f8;
+}
