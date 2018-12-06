@@ -120,6 +120,7 @@ h6 { /* words "Wash x State" */
 
 .chevron img{
   height: 20px;
+  float: left;
 }
 .stopnum{ /* everything around it changes except for the color of the text */
   text-align: center;
@@ -136,7 +137,6 @@ h6 { /* words "Wash x State" */
 
 .schedule-view{
   color: #2DB5C7;;
-
   font-weight: bold;
   text-align: center;
   font-size: 1.6em;
