@@ -23,11 +23,6 @@ position: inherit;
 
 }
 
-.chevron{
-  width: 375px;
-  display: inline-block;
-}
-
 .traninfo { /* background color/text colors aren't coming out right - need help with sizing */
   background-color: #2DB5C7;
   height: 40px;
@@ -94,7 +89,7 @@ th{
   }
 
 i {
-background: #f8f8f8;
+background: #efefef;
 color: #2DB5C7;
 display: inline-block;
 }
@@ -136,6 +131,8 @@ h6 { /* words "Wash x State" */
 }
 .chevron{
   background-color: #f8f8f8;
+  font-family: Arial, Verdana, sans-serif;
+  font-weight: lighter;
   width: 375px;
 }
 
@@ -163,4 +160,24 @@ h6 { /* words "Wash x State" */
   font-size: 1.6em;
   background-color: #f8f8f8;
   height: 25px;
+}
+
+.fa-route{
+  width: 20%;
+  }
+
+.fa-location-arrow{
+  width: 20%;
+}
+
+.fa-home{
+  width: 20%;
+}
+
+.fa-star{
+  width: 20%;
+}
+
+.fa-ellipsis-h{
+  width: 20%;
 }
