@@ -5,38 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
-    <body>
-      <!-- <div class="container">
-        <div class="nav-bar">
-          <img src="nav-bar.png" alt="ios nav bar top">
-          <h1>Schedule View</h1>
-        </div> -->
+
+
 <header>
-<div class= "chevron">
-  <img src="chevron.png" alt= "chevron">
-</div>
-<div class="schedule-view">
+  <nav>
+  <div class="statusbar"><img src="Images/Status-Bar.png" alt="Status Bar">
+  </div>
+  <div class="chevron"><i class="fas fa-chevron-left">Back</i>
+  </div>
   <h1>Schedule View</h1>
-  <!-- <h6>Back</h6> if the text is here, it is centered by the top-container styling -->
-</div>
+</nav>
 </header>
 
 <div class="stopnum">
   <h3>Stop 131: Washington Street</h3>
 </div>
 
-
-<!-- Transit Times: this isn't showing up properly -->
-
+<body>
 <div class="traninfo">
   <table>
   <td>Transit Times</td>
-  <td><img src="bus-icon.png" alt="bus icon"></td>
+  <td><img src="Images/bus-icon.png" alt="bus icon"></td> <!-- <i class="fal fa-bus"></i> -->
   <td> <p>50 Min</p></td>
-  <td> <img src="car-icon.png" alt="car icon"></td>
+  <td> <img src="Images/car-icon.png" alt="car icon"></td> <!-- <i class="fal fa-car"></i> -->
   <td> <p>36 Min</p></td>
-  <td> <img src="walk-icon.png" alt="walk icon"></td>
+  <td> <img src="Images/walk-icon.png" alt="walk icon"></td> <!-- <i class="fas fa-walking"></i> -->
   <td> <p>2 Hours</p></td>
 </table>
 </div>
@@ -133,16 +128,16 @@
 </tr>
 </table>
 <div class="map">
-<img src="map.png" alt="map">
+<img src="Images/map.png" alt="map">
 </div>
+</body>
 
-<!-- going to structure the bottom nav as a table -->
-<div class="bottom-nav">
-   <ul class="bottom-nav-list">
-     <li><img src="new-trip.png" alt="new trip"> </li>
-     <li><img src="routes.png" alt="routes"></li>
-     <li><img src="go-home.png" alt="go home"></li>
-     <li><img src="favorites.png" alt="favorites"></li>
-     <li><img src="more.png" alt="more"></li>
-   </ul>
-</div>
+<footer>
+   <span class="bottom-nav-list">
+     <i class="fas fa-route"></i>
+     <i class="fas fa-location-arrow"></i>
+     <i class="fas fa-home"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-ellipsis-h"></i>
+   </span>
+</footer>

@@ -15,6 +15,19 @@ body { /*body*/
   position: inherit;
 }
 
+.statusbar{
+background-color: #f8f8f8;
+height: 20px;
+width: 100%;
+position: inherit;
+
+}
+
+.chevron{
+  width: 375px;
+  display: inline-block;
+}
+
 .traninfo { /* background color/text colors aren't coming out right - need help with sizing */
   background-color: #2DB5C7;
   height: 40px;
@@ -27,6 +40,13 @@ body { /*body*/
 .bus-icon img {
   background-color: #2DB5C7;
 }
+
+h1{
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #f8f8f8;
+}
+
 
 .navbar-top { /*div for Washington x State*/
   background-color: #2DB5C7;
@@ -73,35 +93,36 @@ th{
   display: inline-block;
   }
 
-  .bottom-nav {
-    width: 375px;
-    overflow: auto;
-    position: relative;
-    background-color: #efefef;
-  }
+i {
+background: #f8f8f8;
+color: #2DB5C7;
+display: inline-block;
+}
 
-  .bottom-nav-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.bottom-nav-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 
-  .bottom-nav li {
-    width: 375px;
-    background-color: #efefef;
-    overflow: auto;
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    /*width: 5.555%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 12px 0; /* Some top and bottom padding */
-    color: #979797; /* grey text color */
-    font-size: 1.1em; /* Increased font size */
-    display: inline-block;
-    }
+}
+
+footer {
+  width: 375px;
+  position: relative;
+  background-color: #efefef;
+  overflow: auto;
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  /*width: 5.555%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  color: #979797; /* grey text color */
+  font-size: 1.1em; /* Increased font size */
+  }
 
 h6 { /* words "Wash x State" */
   text-align: left;
-  font-size: 1.1em;
+  font-size: 1em;
   font-family: sans-serif;
   color: #efeff4;
   display: inline-block;
