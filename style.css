@@ -164,20 +164,30 @@ h6 { /* words "Wash x State" */
 
 .fa-route{
   width: 20%;
+  text-align: Float;
+  font-size: 14px;
   }
 
 .fa-location-arrow{
   width: 20%;
+  text-align: Float;
+  font-size: 14px;
 }
 
 .fa-home{
   width: 20%;
+  text-align: Float;
+  font-size: 14px;
 }
 
 .fa-star{
   width: 20%;
+  text-align: Float;
+  font-size: 14px;
 }
 
 .fa-ellipsis-h{
   width: 20%;
+  text-align: Float;
+  font-size: 14px;
 }
