@@ -53,7 +53,7 @@ h1{
 
 body{
   font-family: Arial, Verdana, sans-serif;
-  color: #2DB5C7;}
+  color: #2DB5C7}
 
 table{
     width: 375px;}
@@ -81,6 +81,7 @@ th{
 
 .reroute th{
   background-color: #33bc52; /*color not showing up correctly?*/
+  width: 100%;
 }
 .map img{
   position: relative;
