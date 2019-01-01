@@ -140,13 +140,19 @@ h6 { /* words "Wash x State" */
 
 .chevron img{
   height: 20px;
-  float: left;
   display: float;
+  float: left;
+  font-size:
+
 }
 
 .chevron span{
   font-size: 16px;
 }
+
+.chevron i {
+  font-size: 20px;
+  background-color: #f8f8f8 }
 .stopnum{ /* everything around it changes except for the color of the text */
   text-align: center;
   color: #ffffff;
