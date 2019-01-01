@@ -81,7 +81,6 @@ th{
 
 .reroute th{
   background-color: #33bc52; /*color not showing up correctly?*/
-  width: 100%;
 }
 .map img{
   position: relative;
@@ -97,11 +96,10 @@ display: inline-block;
 }
 
 .bottom-nav-list{
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
   font-size: 15px;
   font-family: Arial, Verdana, sans-serif;
+  display: flex;
+  justify-content:space-around;
 
 }
 
@@ -166,7 +164,7 @@ h6 { /* words "Wash x State" */
   color: #2DB5C7;;
   font-weight: bold;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.5em;
   background-color: #f8f8f8;
   height: 25px;
 }
@@ -176,7 +174,7 @@ h6 { /* words "Wash x State" */
   text-align: Float;
   font-size: 12px;
   font-family: Arial, Verdana, sans-serif;
-  display: inline-block;
+  display: inline-inline-block;
   }
 
 .fa-location-arrow{
