@@ -80,7 +80,7 @@ th{
   }
 
 .reroute th{
-  background-color: #33bc52; /*color not showing up correctly?*/
+  background-color: #33bc52;
 }
 .map img{
   position: relative;
