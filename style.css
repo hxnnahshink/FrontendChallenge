@@ -3,11 +3,13 @@
 
 }
 
-body { /*body*/
-  background-color: white;
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #ffffff;
   font-size: 11px;
   margin: auto;
   width: 375px;
+  color: #000000;
 }
 
 .ios-nav {
@@ -17,14 +19,13 @@ body { /*body*/
 }
 
 .statusbar{
-background-color: #f8f8f8;
+background-color: #ffffff;
 height: 20px;
 width: 100%;
 position: inherit;
-
 }
 
-.traninfo { /* background color/text colors aren't coming out right - need help with sizing */
+.traninfo {
   background-color: #2DB5C7;
   height: 40px;
   position: relative;
@@ -39,26 +40,29 @@ position: inherit;
 h1{
   text-align: center;
   font-size: 1.5em;
+  font-weight: lighter;
   display: inline-block;
   width: 75%;
+  padding: 10px;
+  color: #2DB5C7;
+
 }
 
 
-.navbar-top { /*div for Washington x State*/
+.navbar-top {
   background-color: #2DB5C7;
   height: 80px;
   position: relative;
   text-align: center;
 }
 
-body{
-  font-family: Arial, Verdana, sans-serif;
-  color: #2DB5C7}
 
 table{
-    width: 375px;}
+    width: 375px;
+    }
 td{
-  padding: 7px 10px 10px 10px;}
+  padding: 7px 10px 10px 10px;
+2DB5C7}
 
 th{
   padding: 7px 10px 10px 10px;
@@ -75,12 +79,13 @@ th{
   letter-spacing: 0.1em;
   font-size: 90%;
   text-align: left;
-  background-color: #F93822;
+  background-color: #888888;
   color: #ffffff;
   }
 
 .reroute th{
-  background-color: #33bc52;
+  background-color: #F93822;
+
 }
 .map img{
   position: relative;
@@ -99,21 +104,21 @@ display: inline-block;
   font-size: 15px;
   font-family: Arial, Verdana, sans-serif;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
+  background-color: #ffffff;
 
 }
 
 footer {
   width: 375px;
   position: relative;
-  background-color: #efefef;
+  background-color: #ffffff;
   overflow: auto;
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
   /*width: 5.555%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 12px 0; /* Some top and bottom padding */
-  color: #979797; /* grey text color */
-  font-size: 1.1em; /* Increased font size */
+  color: #2DB5C7;
+  font-size: 10px;
   }
 
 h6 { /* words "Wash x State" */
@@ -125,7 +130,7 @@ h6 { /* words "Wash x State" */
 }
 
 .top-container {
- background-color: #f8f8f8;
+ background-color: #ffffff;
  height: 50px;
  font-size: 1.7em;
  text-align: center;
@@ -135,81 +140,73 @@ h6 { /* words "Wash x State" */
   font-weight: lighter;
   display: inline-block;
   font-size: 12px;
+  color: #2DB5C7;
 }
 
 .chevron img{
   height: 20px;
   display: float;
   float: left;
-  font-size:
-
 }
 
 .chevron span{
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .chevron i {
-  font-size: 20px;
-  background-color: #f8f8f8 }
-.stopnum{ /* everything around it changes except for the color of the text */
+  font-size: 16px;
+  background-color: #ffffff;
+}
+.stopnum{
   text-align: center;
-  color: #ffffff;
+  color: #2DB5C7;
   width: 100%;
-  background-color: #2DB5C7;
-  line-height: 44px;
-  font-size: 2em;
+  background-color: #ffffff;
+  line-height: 40px;
+  font-size: 1.5em;
   font-family: sans-serif;
-  font-weight: lighter;
-  display: inline-block;
+  font-weight: bolder;
+  /*display: inline-block;*/
   margin: auto;
 }
 
-.schedule-view{
-  color: #2DB5C7;;
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.5em;
-  background-color: #f8f8f8;
-  height: 25px;
-}
+
 
 .fa-route{
   width: 20%;
   text-align: Float;
-  font-size: 12px;
   font-family: Arial, Verdana, sans-serif;
   display: inline-inline-block;
+  background-color: #ffffff;
   }
 
 .fa-location-arrow{
   width: 20%;
   text-align: Float;
-  font-size: 12px;
   font-family: Arial, Verdana, sans-serif;
   display: inline-block;
+  background-color: #ffffff;
 }
 
 .fa-home{
   width: 20%;
   text-align: Float;
-  font-size: 12px;
   font-family: Arial, Verdana, sans-serif;
   display: inline-block;
+  background-color: #ffffff;
 }
 
 .fa-star{
   width: 20%;
   text-align: Float;
   display: inline-block;
-  font-size: 12px;
   font-family: Arial, Verdana, sans-serif;
 }
 
 .fa-ellipsis-h{
   width: 20%;
   text-align: Float;
-  font-size: 12px;
   font-family: Arial, Verdana, sans-serif;
   display: inline-block;
+  background-color: #ffffff;
 }
