@@ -104,11 +104,13 @@ display: inline-block;
 }
 
 .bottom-nav-list{
-  font-size: 15px;
+  font-size: 20px;
   font-family: Arial, Verdana, sans-serif;
   display: flex;
   justify-content: space-around;
   background-color: #ffffff;
+  margin-top: 10px;
+
 
 }
 
